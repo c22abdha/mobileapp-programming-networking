@@ -4,43 +4,27 @@ import com.google.gson.annotations.SerializedName;
 
 public class Mountain {
     private String ID;
-    private String Namn;
+    private String name;
+
+    public Mountain(String ID, String Name) {
+        this.ID = ID;
+        this.name = Name;
+    }
+
 
     public String getID() {
         return ID;
     }
 
-    public String getNamn() {
-        return Namn;
-    }
-
-    public int getMeter() {
-        return meter;
-    }
-
-    @SerializedName("size")
-    private int meter;
-
     public void setID(String ID) {
         this.ID = ID;
     }
 
-    public void setNamn(String namn) {
-        Namn = namn;
+    public String getName() {
+        return name;
     }
 
-    public void setMeter(int meter) {
-        this.meter = meter;
-    }
-
-
-    @Override
-    public String toString() {
-        return "Mountain{" +
-                "ID=' " + ID + '\'' +
-        ", Namn=´" + Namn + '\'' +
-        ", meter=" + meter +
-                '}';
-
+    public void setName(String name) {
+        this.name = name;
     }
 }
