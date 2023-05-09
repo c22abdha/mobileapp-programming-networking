@@ -10,7 +10,8 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-public class JsonTask extends AsyncTask<String, String, String> {
+public class
+JsonTask extends AsyncTask<String, String, String> {
 
     public interface JsonTaskListener {
         void onPostExecute(String json);
