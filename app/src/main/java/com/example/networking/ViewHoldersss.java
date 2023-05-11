@@ -1,4 +1,4 @@
-package com.example.networking;
+/*package com.example.networking;
 
 import android.view.View;
 import android.widget.TextView;
@@ -14,3 +14,4 @@ public class ViewHoldersss extends RecyclerView.ViewHolder {
         name = itemView.findViewById(R.id.name);
     }
 }
+*/
